@@ -40,7 +40,7 @@ const FormLogin = (props) => {
         <form className="form" onSubmit={handleSubmit} >
 
             <label className="label" htmlFor="username">Username:</label>
-            <input className="input" onChange={handleInputChange} type="text" id="name" name="username" />
+            <input className="input" onChange={handleInputChange} type="text" id="name" name="username" required />
 
 
 
