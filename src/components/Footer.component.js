@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
 return (
     <footer >
-    <p>Funy Game</p>
+    <p>Guess The Number</p>
   </footer>
 )
 

@@ -12,8 +12,13 @@ const [lable, setLabel] = useState("Clik button to Start New Game")
 
 const handleInputChange = (event)=> {
 event.preventDefault()
-setUserNumber(parseInt(event.target.value,10))
-
+const newNumber = event.target.value
+if (newNumber){
+    setUserNumber(parseInt(newNumber,10))
+}
+else {
+    setUserNumber()
+}
 } 
 
 const handleStart = (event) => {

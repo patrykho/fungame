@@ -6,7 +6,7 @@ const Header = () => {
 return (
      <header >
     
-    <h1>Funy Game</h1>
+    <h1>Funny Game</h1>
     <NavLink
               exact
               to="/login"
