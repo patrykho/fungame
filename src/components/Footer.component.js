@@ -2,11 +2,11 @@ import React from 'react'
 
 
 const Footer = () => {
-return (
+  return (
     <footer >
-    <p>Guess The Number</p>
-  </footer>
-)
+      <p>Copyright Guess The Number 2019</p>
+    </footer>
+  )
 
 }
 
